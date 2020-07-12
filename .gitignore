@@ -1,0 +1,7 @@
+# Project exclude paths
+/cloud-api-commons/target/
+/cloudalibaba-consumer-nacos-order83/target/
+/cloudalibaba-provicer-payment9001/target/
+/cloudalibaba-provicer-payment9002/target/
+/cloudalibaba-provicer-payment9003/target/
+/cloudalibaba-provicer-payment9004/target/
