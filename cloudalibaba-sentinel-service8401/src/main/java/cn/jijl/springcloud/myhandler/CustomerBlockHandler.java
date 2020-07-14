@@ -6,7 +6,8 @@ import com.alibaba.csp.sentinel.slots.block.BlockException;
 
 /**
  * @Author jijl
- * @Date 21:41 2020/7/13
+ * @Description: 自定义限流处理逻辑
+ * @Date 16:03 2020/7/14
  **/
 public class CustomerBlockHandler {
 

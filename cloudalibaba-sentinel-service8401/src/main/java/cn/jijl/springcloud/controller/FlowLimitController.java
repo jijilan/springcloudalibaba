@@ -24,6 +24,7 @@ public class FlowLimitController {
 
     @GetMapping("/testB")
     public String testB() {
+     log.info(Thread.currentThread().getName()+"\t"+"testB");
         return "----testB";
     }
 

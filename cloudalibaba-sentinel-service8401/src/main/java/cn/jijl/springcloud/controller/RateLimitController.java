@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RateLimitController {
 
 
-
-
     @GetMapping("/byResource")
     @SentinelResource(value = "byResource", blockHandler = "handleException")
     public CommonResult byResource() {
@@ -34,6 +32,13 @@ public class RateLimitController {
         return new CommonResult(200, "按照byUrl限流测试", new Payment(2020L, "serial002"));
     }
 
+
+    /**
+     * @return cn.jijl.springcloud.entities.CommonResult
+     * @Author jijl
+     * @Description: 定义全局的异常返回方法
+     * @Date 16:06 2020/7/14
+     **/
     //CustomerBlockHandler
     @GetMapping("/rateLimit/customerBlockHandler")
     @SentinelResource(value = "customerBlockHandler",
