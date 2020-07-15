@@ -12,7 +12,7 @@ spring:
         tx-service-group: fsp_tx_group
     nacos:
       discovery:
-        server-addr: nacos.jijl.cn:80
+        server-addr: 119.23.110.53:8848
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     # mysql驱动类

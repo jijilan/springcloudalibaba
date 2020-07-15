@@ -11,7 +11,7 @@ spring:
         tx-service-group: fsp_tx_group
     nacos:
       discovery:
-        server-addr: nacos.jijl.cn:80
+        server-addr: 119.23.110.53:8848
   datasource:
     # 当前数据源操作类型
     type: com.alibaba.druid.pool.DruidDataSource
